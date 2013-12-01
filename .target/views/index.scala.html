@@ -1,0 +1,13 @@
+@(message: String)
+
+<form action="@{routes.Application.sorteo()}" method="GET">
+	<input type="submit" value="Sorteo" />
+</form>
+
+<form action="@{routes.Application.inscripcion()}" method="GET">
+	<input type="submit" value="Inscribir Participantes" />
+</form>
+
+<form action="@{routes.Application.seguridad()}" method="GET">
+	<input type="submit" value="Seguridad" />
+</form>
